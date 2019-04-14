@@ -5,6 +5,7 @@ board = [" ","X"," "," "," "," "," "," "," "]
 def position_taken?(board, index)
 
   if board[index] != " "
+    print "invalid"
     false
   else
     true
